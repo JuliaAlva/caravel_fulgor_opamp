@@ -4,19 +4,22 @@ You can utilize the Makefile existing here in this directory to do that.
 
 But, first you need to specify 3 things:
 ```bash
-export OPENLANE_TAG=<the openlane tag/version you are using. This could be rc4 or rc5 based on when you cloned openlane and what branch you are using.>
 export PDK_ROOT=<The location where the pdk is installed>
-export OPENLANE_ROOT=<the absolute path to the cloned openlane directory>
+export OPENLANE_ROOT=<the absolute path to the openlane directory cloned or to be cloned>
 ```
 
-**NOTE:** we recommend using openlane:rc4. Note the following [FAQ](https://github.com/efabless/openlane/wiki#why-am-i-getting-n-well-related-drc-violations-from-magic-when-using-the-latest-version-of-the-skywater-pdk).
+**NOTE:** rc5 and caravel are still WIP so expect to run into some issues when using it.
 
-If you don't have openlane already, then you can get it from [here](https://github.com/efabless/openlane). Alternatively, you can clone and build the openlane master through:
+If you don't have openlane already, then you can get it from [here](https://github.com/efabless/openlane) and checkout out to `develop` branch. Alternatively, you can clone and build the openlane develop branch through:
 ```bash
     make openlane
 ```
 
 **NOTE:** We are developing caravel using openlane:rc5 which is the current develop branch. openlane:rc5 will be merged to master once the caravel chip is finalized.
+
+**NOTE:** rc5 (current openlane develop) and rc4 (current openlane master) are using two different concepts of cell padding. rc4 is modifying the LEF, while rc5 is relying on openroad to handle the cell padding. Also, rc4 is using the standalone version of openDP while rc5 is using the one integrated in the openroad app. This affects the concept of PL_TARGET_DENSITY and while in rc4 it was preferred to have PL_TARGET_DENSITY=(FP_CORE_UTIL-(5~10)/100). Now, in rc5 it is preferred to be  PL_TARGET_DENSITY=(FP_CORE_UTIL+(1~5)/100).
+FP_CORE_UTIL should be relaxed as well as it became more representative of the actual core utilization, which wasn't so much the case earlier. So, the perception of these two variables as well as CELL_PAD changed between rc4 and rc5 which necessitates a change in the configurations of almost every single design.
+CELL_PAD should be 4~6 for the skywater libraries in rc5 unlike rc4 which was 8.This will be included in the release notes when rc5 is released as well as the openlane wiki.
 
 Then, you have two options:
 1. Create a macro for your design and harden it, then insert it into user_project_wrapper.
@@ -99,4 +102,4 @@ set ::env(EXTRA_GDS_FILES) "\
 - [Here](https://github.com/efabless/openlane/blob/master/doc/advanced_readme.md) you can learn how to write an interactive script.
 - [Here](https://github.com/efabless/openlane/blob/master/doc/OpenLANE_commands.md) you can find a full documentation for all OpenLANE commands.
 - [This documentation](https://github.com/efabless/openlane/blob/master/regression_results/README.md) describes how to use the exploration script to achieve an LVS/DRC clean design.
-- [This documentation](https://github.com/efabless/openlane/blob/develop/doc/hardening_macros.md) walks you through hardening a macro and all the decisions you should make. However, this is still on the develop branch of openlane and so may contain configuration references that are yet to come to master. For example, `FP_CONTEXT_DEF` and `FP_CONTEXT_DEF`.
+- [This documentation](https://github.com/efabless/openlane/blob/develop/doc/hardening_macros.md) walks you through hardening a macro and all the decisions you should make.
