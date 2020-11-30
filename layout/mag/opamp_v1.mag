@@ -1,15 +1,76 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1606752306
+timestamp 1606754662
 << error_p >>
-rect 0 5359 728 7468
-rect 10044 7121 29880 7943
-rect 28570 0 29880 7121
-rect 0 -3044 120 -2787
-rect -1424 -12827 0 -12647
-rect 0 -13628 112 -12827
-rect 0 -13886 120 -13628
+rect 24638 7121 42259 11053
+rect 28570 0 50123 7121
+<< error_s >>
+rect 20706 -7125 30182 0
+rect 20706 -7171 20724 -7125
+rect 20806 -7171 20872 -7125
+rect 20954 -7171 21020 -7125
+rect 21102 -7171 21168 -7125
+rect 21250 -7171 21316 -7125
+rect 21398 -7171 21464 -7125
+rect 21546 -7171 21612 -7125
+rect 21694 -7171 21760 -7125
+rect 21842 -7171 21908 -7125
+rect 21990 -7171 22056 -7125
+rect 22138 -7171 22204 -7125
+rect 22286 -7171 22352 -7125
+rect 22434 -7171 22500 -7125
+rect 22582 -7171 22648 -7125
+rect 22730 -7171 22796 -7125
+rect 22878 -7171 22944 -7125
+rect 23026 -7171 23092 -7125
+rect 23174 -7171 23240 -7125
+rect 23322 -7171 23388 -7125
+rect 23470 -7171 23536 -7125
+rect 23618 -7171 30182 -7125
+rect 20706 -7203 30182 -7171
+rect 20714 -7219 20816 -7203
+rect 20862 -7219 20964 -7203
+rect 21010 -7219 21112 -7203
+rect 21158 -7219 21260 -7203
+rect 21306 -7219 21408 -7203
+rect 21454 -7219 21556 -7203
+rect 21602 -7219 21704 -7203
+rect 21750 -7219 21852 -7203
+rect 21898 -7219 22000 -7203
+rect 22046 -7219 22148 -7203
+rect 22194 -7219 22296 -7203
+rect 22342 -7219 22444 -7203
+rect 22490 -7219 22592 -7203
+rect 22638 -7219 22740 -7203
+rect 22786 -7219 22888 -7203
+rect 22934 -7219 23036 -7203
+rect 23082 -7219 23184 -7203
+rect 23230 -7219 23332 -7203
+rect 23378 -7219 23480 -7203
+rect 23526 -7219 23628 -7203
+rect 23674 -7219 30182 -7203
+rect 20727 -7864 20803 -7219
+rect 20875 -7864 20951 -7219
+rect 21023 -7864 21099 -7219
+rect 21171 -7864 21247 -7219
+rect 21319 -7864 21395 -7219
+rect 21467 -7864 21543 -7219
+rect 21615 -7864 21691 -7219
+rect 21763 -7864 21839 -7219
+rect 21911 -7864 21987 -7219
+rect 22059 -7864 22135 -7219
+rect 22207 -7864 22283 -7219
+rect 22355 -7864 22431 -7219
+rect 22503 -7864 22579 -7219
+rect 22651 -7864 22727 -7219
+rect 22799 -7864 22875 -7219
+rect 22947 -7864 23023 -7219
+rect 23095 -7864 23171 -7219
+rect 23243 -7864 23319 -7219
+rect 23391 -7864 23467 -7219
+rect 23539 -7864 23615 -7219
+rect 23687 -7864 30182 -7219
 << nwell >>
 rect 4660 2906 10894 3189
 rect 12350 2905 24723 3188
@@ -20144,6 +20205,7 @@ rect 11852 -9423 11886 -9389
 rect 11934 -9423 11968 -9389
 rect 12006 -9423 12040 -9389
 << metal1 >>
+rect 38299 7121 38327 7149
 rect 18489 3182 25078 3188
 rect 3012 3181 25078 3182
 rect 3012 3172 25079 3181
@@ -69945,61 +70007,66 @@ rect 23613 -8370 23689 -8054
 rect 23613 -9210 23619 -8370
 rect 23683 -9210 23689 -8370
 rect 23613 -9212 23689 -9210
-use via_sub_m1  via_sub_m1_1
-array 0 51 154 0 0 46
-timestamp 1606738885
-transform 1 0 4056 0 1 -9503
-box 0 0 154 46
 use via_sub_m1  via_sub_m1_0
 array 0 51 154 0 0 46
 timestamp 1606738885
 transform 1 0 4056 0 1 -9577
-box 0 0 154 46
-use via_sub_m1  via_sub_m1_3
-array 0 51 154 0 0 46
-timestamp 1606738885
-transform 1 0 4056 0 1 -9355
 box 0 0 154 46
 use via_sub_m1  via_sub_m1_2
 array 0 51 154 0 0 46
 timestamp 1606738885
 transform 1 0 4056 0 1 -9429
 box 0 0 154 46
-use via_sub_m1  via_sub_m1_5
+use via_sub_m1  via_sub_m1_1
 array 0 51 154 0 0 46
 timestamp 1606738885
-transform 1 0 4056 0 1 -9207
+transform 1 0 4056 0 1 -9503
 box 0 0 154 46
 use via_sub_m1  via_sub_m1_4
 array 0 51 154 0 0 46
 timestamp 1606738885
 transform 1 0 4056 0 1 -9281
 box 0 0 154 46
+use via_sub_m1  via_sub_m1_3
+array 0 51 154 0 0 46
+timestamp 1606738885
+transform 1 0 4056 0 1 -9355
+box 0 0 154 46
 use via_sub_m1  via_sub_m1_6
 array 0 51 154 0 0 46
 timestamp 1606738885
 transform 1 0 4056 0 1 -9133
 box 0 0 154 46
-use via_sub_m1  via_sub_m1_7
+use via_sub_m1  via_sub_m1_5
 array 0 51 154 0 0 46
 timestamp 1606738885
-transform 1 0 4056 0 1 -9059
-box 0 0 154 46
-use via_sub_m1  via_sub_m1_9
-array 0 10 154 0 0 46
-timestamp 1606738885
-transform 1 0 4056 0 1 -8911
+transform 1 0 4056 0 1 -9207
 box 0 0 154 46
 use via_sub_m1  via_sub_m1_8
 array 0 51 154 0 0 46
 timestamp 1606738885
 transform 1 0 4056 0 1 -8985
 box 0 0 154 46
+use via_sub_m1  via_sub_m1_7
+array 0 51 154 0 0 46
+timestamp 1606738885
+transform 1 0 4056 0 1 -9059
+box 0 0 154 46
 use via_sub_m1  via_sub_m1_10
 array 0 9 154 0 0 46
 timestamp 1606738885
 transform 1 0 4056 0 1 -8837
 box 0 0 154 46
+use via_sub_m1  via_sub_m1_9
+array 0 10 154 0 0 46
+timestamp 1606738885
+transform 1 0 4056 0 1 -8911
+box 0 0 154 46
+use via_m3_m4  via_m3_m4_10
+array 0 3 104 0 2 104
+timestamp 1606691473
+transform 1 0 11147 0 1 -6947
+box -20 -20 84 84
 use via_sub_m1  via_sub_m1_12
 array 0 10 154 0 0 46
 timestamp 1606738885
@@ -70020,6 +70087,21 @@ array 0 1 422 0 0 720
 timestamp 1606688118
 transform 1 0 11120 0 1 -7354
 box -211 -360 211 360
+use via_li_m1  via_li_m1_2
+array 0 83 72 0 0 74
+timestamp 1606675505
+transform 1 0 4756 0 1 -6775
+box 4 0 76 74
+use via_li_m1  via_li_m1_19
+array 0 66 72 0 2 74
+timestamp 1606675505
+transform 1 0 5758 0 1 -7082
+box 4 0 76 74
+use via_m3_m4  via_m3_m4_4
+array 0 29 -104 0 2 -104
+timestamp 1606691473
+transform -1 0 12581 0 -1 -6786
+box -20 -20 84 84
 use sky130_fd_pr__nfet_01v8_8HUREQ  sky130_fd_pr__nfet_01v8_8HUREQ_1
 timestamp 1606658823
 transform 1 0 8776 0 1 -7912
@@ -70028,15 +70110,25 @@ use sky130_fd_pr__nfet_01v8_8HUREQ  sky130_fd_pr__nfet_01v8_8HUREQ_0
 timestamp 1606658823
 transform 1 0 6778 0 1 -7912
 box -1052 -919 1052 919
-use sky130_fd_pr__nfet_01v8_8JUMX6  sky130_fd_pr__nfet_01v8_8JUMX6_0
-timestamp 1606595467
-transform 1 0 18101 0 1 -8212
-box -5717 -1219 5717 1219
+use via_m3_m4  via_m3_m4_6
+array 0 29 104 0 2 104
+timestamp 1606691473
+transform 1 0 20729 0 1 -6850
+box -20 -20 84 84
+use via_m3_m4  via_m3_m4_5
+array 0 29 104 0 2 104
+timestamp 1606691473
+transform 1 0 16612 0 1 -6850
+box -20 -20 84 84
 use via_li_m1  via_li_m1_18
 array 0 299 74 0 3 74
 timestamp 1606675505
 transform 1 0 4048 0 1 -9954
 box 4 0 76 74
+use sky130_fd_pr__nfet_01v8_8JUMX6  sky130_fd_pr__nfet_01v8_8JUMX6_0
+timestamp 1606595467
+transform 1 0 18101 0 1 -8212
+box -5717 -1219 5717 1219
 use sky130_fd_pr__pfet_01v8_YCMRKB  sky130_fd_pr__pfet_01v8_YCMRKB_0
 timestamp 1606658371
 transform 1 0 7777 0 1 -3628
@@ -70045,11 +70137,6 @@ use sky130_fd_pr__pfet_01v8_YCMRKB  sky130_fd_pr__pfet_01v8_YCMRKB_3
 timestamp 1606658371
 transform 1 0 7777 0 1 -5678
 box -3117 -937 3117 937
-use via_li_m1  via_li_m1_2
-array 0 83 72 0 0 74
-timestamp 1606675505
-transform 1 0 4756 0 1 -6775
-box 4 0 76 74
 use via_li_m1  via_li_m1_0
 array 0 83 72 0 0 74
 timestamp 1606675505
@@ -70060,43 +70147,22 @@ array 0 83 72 0 0 74
 timestamp 1606675505
 transform 1 0 4756 0 1 -6687
 box 4 0 76 74
-use via_li_m1  via_li_m1_19
-array 0 66 72 0 2 74
-timestamp 1606675505
-transform 1 0 5758 0 1 -7082
-box 4 0 76 74
-use via_m3_m4  via_m3_m4_10
-array 0 3 104 0 2 104
-timestamp 1606691473
-transform 1 0 11147 0 1 -6947
-box -20 -20 84 84
 use sky130_fd_pr__cap_mim_m3_1_BLS9H9  sky130_fd_pr__cap_mim_m3_1_BLS9H9_3
 timestamp 1606520558
 transform -1 0 13922 0 1 -4838
 box -1941 -1600 1941 1600
-use via_m3_m4  via_m3_m4_4
-array 0 29 -104 0 2 -104
-timestamp 1606691473
-transform -1 0 12581 0 -1 -6786
-box -20 -20 84 84
 use sky130_fd_pr__cap_mim_m3_1_BLS9H9  sky130_fd_pr__cap_mim_m3_1_BLS9H9_2
 timestamp 1606520558
 transform -1 0 18088 0 1 -4838
 box -1941 -1600 1941 1600
-use via_m3_m4  via_m3_m4_5
-array 0 29 104 0 2 104
-timestamp 1606691473
-transform 1 0 16612 0 1 -6850
-box -20 -20 84 84
 use sky130_fd_pr__cap_mim_m3_1_BLS9H9  sky130_fd_pr__cap_mim_m3_1_BLS9H9_4
 timestamp 1606520558
 transform -1 0 22254 0 1 -4838
 box -1941 -1600 1941 1600
-use via_m3_m4  via_m3_m4_6
-array 0 29 104 0 2 104
-timestamp 1606691473
-transform 1 0 20729 0 1 -6850
-box -20 -20 84 84
+use sky130_fd_pr__pfet_01v8_YCMRKB  sky130_fd_pr__pfet_01v8_YCMRKB_2
+timestamp 1606658371
+transform 1 0 7777 0 1 472
+box -3117 -937 3117 937
 use via_m3_m4  via_m3_m4_3
 array 0 5 104 0 2 104
 timestamp 1606691473
@@ -70128,67 +70194,78 @@ use sky130_fd_pr__cap_mim_m3_1_BLS9H9  sky130_fd_pr__cap_mim_m3_1_BLS9H9_5
 timestamp 1606520558
 transform -1 0 22254 0 1 -1094
 box -1941 -1600 1941 1600
-use via_m3_m4  via_m3_m4_7
-array 0 29 -104 0 2 -104
-timestamp 1606691473
-transform -1 0 12581 0 -1 706
-box -20 -20 84 84
-use sky130_fd_pr__pfet_01v8_YC9MKB  sky130_fd_pr__pfet_01v8_YC9MKB_0
-timestamp 1606712473
-transform 1 0 5712 0 1 2387
-box -1052 -519 1052 519
-use sky130_fd_pr__pfet_01v8_YC9MKB  sky130_fd_pr__pfet_01v8_YC9MKB_2
-timestamp 1606712473
-transform 1 0 9708 0 1 2387
-box -1052 -519 1052 519
-use sky130_fd_pr__pfet_01v8_YC9MKB  sky130_fd_pr__pfet_01v8_YC9MKB_1
-timestamp 1606712473
-transform 1 0 7710 0 1 2387
-box -1052 -519 1052 519
-use via_li_m1  via_li_m1_3
-array 0 83 72 0 0 74
-timestamp 1606675505
-transform 1 0 4756 0 1 1319
-box 4 0 76 74
-use via_li_m1  via_li_m1_4
-array 0 83 72 0 0 74
-timestamp 1606675505
-transform 1 0 4756 0 1 1407
-box 4 0 76 74
-use via_li_m1  via_li_m1_5
-array 0 83 72 0 0 74
-timestamp 1606675505
-transform 1 0 4756 0 1 1495
-box 4 0 76 74
-use via_li_m1  via_li_m1_12
-array 0 83 72 0 0 74
-timestamp 1606675505
-transform 1 0 12467 0 1 1047
-box 4 0 76 74
-use sky130_fd_pr__pfet_01v8_YCMRKB  sky130_fd_pr__pfet_01v8_YCMRKB_2
-timestamp 1606658371
-transform 1 0 7777 0 1 472
-box -3117 -937 3117 937
-use sky130_fd_pr__pfet_01v8_YT7TV5  sky130_fd_pr__pfet_01v8_YT7TV5_0
-array 0 2 4123 0 0 1874
-timestamp 1606718285
-transform 1 0 13992 0 1 1968
-box -1642 -937 1642 937
-use via_m3_m4  via_m3_m4_9
+use via_m3_m4  via_m3_m4_8
 array 0 29 104 0 2 104
 timestamp 1606691473
-transform 1 0 20729 0 1 642
+transform 1 0 16612 0 1 642
 box -20 -20 84 84
 use via_li_m1  via_li_m1_17
 array 0 83 72 0 0 74
 timestamp 1606675505
 transform 1 0 18443 0 1 1047
 box 4 0 76 74
-use via_m3_m4  via_m3_m4_8
+use via_m3_m4  via_m3_m4_9
 array 0 29 104 0 2 104
 timestamp 1606691473
-transform 1 0 16612 0 1 642
+transform 1 0 20729 0 1 642
 box -20 -20 84 84
+use via_li_m1  via_li_m1_12
+array 0 83 72 0 0 74
+timestamp 1606675505
+transform 1 0 12467 0 1 1047
+box 4 0 76 74
+use via_m3_m4  via_m3_m4_7
+array 0 29 -104 0 2 -104
+timestamp 1606691473
+transform -1 0 12581 0 -1 706
+box -20 -20 84 84
+use via_li_m1  via_li_m1_11
+array 0 83 72 0 0 74
+timestamp 1606675505
+transform 1 0 18586 0 1 2815
+box 4 0 76 74
+use via_li_m1  via_li_m1_9
+array 0 83 72 0 0 74
+timestamp 1606675505
+transform 1 0 12446 0 1 2815
+box 4 0 76 74
+use via_li_m1  via_li_m1_7
+array 0 83 72 0 0 74
+timestamp 1606675505
+transform 1 0 4756 0 1 2816
+box 4 0 76 74
+use via_li_m1  via_li_m1_5
+array 0 83 72 0 0 74
+timestamp 1606675505
+transform 1 0 4756 0 1 1495
+box 4 0 76 74
+use via_li_m1  via_li_m1_4
+array 0 83 72 0 0 74
+timestamp 1606675505
+transform 1 0 4756 0 1 1407
+box 4 0 76 74
+use via_li_m1  via_li_m1_3
+array 0 83 72 0 0 74
+timestamp 1606675505
+transform 1 0 4756 0 1 1319
+box 4 0 76 74
+use sky130_fd_pr__pfet_01v8_YC9MKB  sky130_fd_pr__pfet_01v8_YC9MKB_1
+timestamp 1606712473
+transform 1 0 7710 0 1 2387
+box -1052 -519 1052 519
+use sky130_fd_pr__pfet_01v8_YC9MKB  sky130_fd_pr__pfet_01v8_YC9MKB_2
+timestamp 1606712473
+transform 1 0 9708 0 1 2387
+box -1052 -519 1052 519
+use sky130_fd_pr__pfet_01v8_YC9MKB  sky130_fd_pr__pfet_01v8_YC9MKB_0
+timestamp 1606712473
+transform 1 0 5712 0 1 2387
+box -1052 -519 1052 519
+use sky130_fd_pr__pfet_01v8_YT7TV5  sky130_fd_pr__pfet_01v8_YT7TV5_0
+array 0 2 4123 0 0 1874
+timestamp 1606718285
+transform 1 0 13992 0 1 1968
+box -1642 -937 1642 937
 use via_li_m1  via_li_m1_8
 array 0 83 72 0 0 74
 timestamp 1606675505
@@ -70198,16 +70275,6 @@ use via_li_m1  via_li_m1_6
 array 0 83 72 0 0 74
 timestamp 1606675505
 transform 1 0 4756 0 1 3010
-box 4 0 76 74
-use via_li_m1  via_li_m1_7
-array 0 83 72 0 0 74
-timestamp 1606675505
-transform 1 0 4756 0 1 2816
-box 4 0 76 74
-use via_li_m1  via_li_m1_9
-array 0 83 72 0 0 74
-timestamp 1606675505
-transform 1 0 12446 0 1 2815
 box 4 0 76 74
 use via_li_m1  via_li_m1_14
 array 0 83 72 0 0 74
@@ -70234,11 +70301,11 @@ array 0 83 72 0 0 74
 timestamp 1606675505
 transform 1 0 18585 0 1 3097
 box 4 0 76 74
-use via_li_m1  via_li_m1_11
-array 0 83 72 0 0 74
-timestamp 1606675505
-transform 1 0 18586 0 1 2815
-box 4 0 76 74
+use via_m3_m4  via_m3_m4_12
+array 0 7 104 0 2 104
+timestamp 1606691473
+transform 1 0 11395 0 1 -9977
+box -20 -20 84 84
 << labels >>
 rlabel metal2 3032 -4777 4304 -4529 1 vin
 rlabel metal2 3032 -677 4304 -429 1 vcm
