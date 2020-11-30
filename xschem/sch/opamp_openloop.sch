@@ -96,7 +96,7 @@ value="
 * Include Models
 *.lib /home/dhernando/projects/foundry/skywater-pdk/libraries/sky130_fd_pr/latest/models/corners/sky130.lib SS
 *.lib  ~/fulgor-opamp-sky130/xschem/sky130.lib TT
-.lib ~/skywater_pdk/skywater-pdk/libraries/sky130_fd_pr/latest/models/corners/sky130.lib TT
+.lib ~/skywater_pdk/skywater-pdk/libraries/sky130_fd_pr/latest/models/corners/sky130.lib fs
 
 * OP Parameters & Singals to save
 .save all

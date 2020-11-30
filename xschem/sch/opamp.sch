@@ -119,7 +119,7 @@ ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
 as="'W * 0.29'" ps="'2 * (W + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
-nf=1 mult=60
+nf=1 mult=30
 model=pfet_01v8
 spiceprefix=X
 }
@@ -164,7 +164,7 @@ ad="'W * 0.29'" pd="'2 * (W + 0.29)'"
 as="'W * 0.29'" ps="'2 * (W + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
-nf=1 mult=1
+nf=1 mult=6
 model=nfet_01v8
 spiceprefix=X
 }
@@ -172,7 +172,7 @@ C {lab_pin.sym} 1720 -250 2 0 {name=l9 sig_type=std_logic lab=vdd
 }
 C {lab_pin.sym} 1720 -110 2 0 {name=l10 sig_type=std_logic lab=vss
 }
-C {sky130_fd_pr/cap_mim_m3_1.sym} 1830 -190 3 0 {name=C1 model=cap_mim_m3_1 W=20 L=20 MF=6 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 1830 -190 3 0 {name=C1 model=cap_mim_m3_1 W=17.55 L=15 MF=6 spiceprefix=X}
 C {iopin.sym} 950 -500 2 0 {name=p1 lab=vdd}
 C {iopin.sym} 950 40 2 0 {name=p2 lab=vss}
 C {ipin.sym} 1180 -270 0 0 {name=p3 lab=vin_n}
