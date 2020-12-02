@@ -10687,7 +10687,7 @@ rect 497604 -7506 498204 -7504
 rect 533604 -7506 534204 -7504
 rect 569604 -7506 570204 -7504
 rect 591900 -7506 592500 -7504
-use opamp_v1  opamp_v1_6 ~/fulgor-opamp-sky130/layout/mag
+use opamp_v1  opamp_v1_6 
 timestamp 1606789383
 transform -1 0 563185 0 -1 215477
 box 2069 -10028 26971 3199
