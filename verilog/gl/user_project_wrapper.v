@@ -43,4 +43,8 @@ module user_project_wrapper(user_clock2, vccd1, vccd2, vdda1, vdda2, vssa1, vssa
 
   opamp_v1 opamp_v1_6();
 
+  PLL_     PLL__0();
+
+  
+
 endmodule
